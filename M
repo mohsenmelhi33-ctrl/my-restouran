@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>رستوران ما</title>
+    <style>
+        body { font-family: Tahoma, sans-serif; margin: 0; padding: 0; background: #fff8f0; color: #333; }
+        header { background: #ff6347; color: white; padding: 20px; text-align: center; }
+        nav a { margin: 0 15px; color: white; text-decoration: none; font-weight: bold; }
+        section { padding: 40px 20px; max-width: 1000px; margin: auto; }
+        h2 { color: #ff6347; }
+        .menu-item { display: flex; justify-content: space-between; margin-bottom: 10px; }
+        .gallery img { width: 200px; margin: 10px; border-radius: 10px; }
+        footer { background: #333; color: white; text-align: center; padding: 20px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>رستوران ما</h1>
+    <nav>
+        <a href="#home">خانه</a>
+        <a href="#menu">منو</a>
+        <a href="#gallery">گالری</a>
+        <a href="#contact">تماس</a>
+    </nav>
+</header>
+
+<section id="home">
+    <h2>به رستوران ما خوش آمدید!</h2>
+    <p>لذت ببرید از بهترین غذاها با طعم بی‌نظیر و محیط دلنشین.</p>
+</section>
+
+<section id="menu">
+    <h2>منوی غذا</h2>
+    <div id="menu-container">
+        <div class="menu-item"><span>پیتزا مخصوص</span> <span>۷۰,۰۰۰ تومان</span></div>
+        <div class="menu-item"><span>کباب کوبیده</span> <span>۶۰,۰۰۰ تومان</span></div>
+        <div class="menu-item"><span>سالاد فصل</span> <span>۳۰,۰۰۰ تومان</span></div>
+        <!-- اینجا غذاهای جدید اضافه کن -->
+    </div>
+</section>
+
+<section id="gallery">
+    <h2>گالری تصاویر</h2>
+    <div id="gallery-container" class="gallery">
+        <img src="https://via.placeholder.com/200x150.png?text=غذا1" alt="غذا 1">
+        <img src="https://via.placeholder.com/200x150.png?text=غذا2" alt="غذا 2">
+        <img src="https://via.placeholder.com/200x150.png?text=غذا3" alt="غذا 3">
+        <!-- اینجا عکس‌های جدید اضافه کن -->
+    </div>
+</section>
+
+<section id="contact">
+    <h2>تماس با ما</h2>
+    <p>آدرس: تهران، خیابان مثال، پلاک ۱۲۳</p>
+    <p>تلفن: ۰۲۱-۱۲۳۴۵۶۷۸</p>
+    <p>ایمیل: info@restaurant.com</p>
+</section>
+
+<footer>
+    <p>© ۲۰۲۵ رستوران ما</p>
+</footer>
+
+</body>
+</html>
